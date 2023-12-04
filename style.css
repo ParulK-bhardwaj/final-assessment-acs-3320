@@ -1,0 +1,110 @@
+.swatches {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); 
+    grid-gap: 0.8rem; 
+    max-width: 100%; 
+    margin: auto; 
+}
+
+.swatch {
+    width: 100px; 
+    height: 50px; 
+    cursor: pointer; 
+    margin: 1px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 1px solid white;
+}
+
+#popular {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+#popular .card {
+    flex: 1;
+    border: 1px solid var(--color-md-dark);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--color-background);
+    padding: 1rem;
+}
+
+#popular .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid var(--color-md-dark);
+}
+
+#popular .card p {
+    margin-top: 1rem;
+    color: var(--font-color);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+}
+
+#cart ul#items li {
+    list-style: none;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d0cdcd;
+    text-align: center;
+}
+
+#cart input[type="text"], #cart input[type="number"] {
+    padding: 5px;
+    border: 1px solid rgb(239, 227, 227);
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+}
+
+#cart #total {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#cart #total::before {
+    content: "Cart Total: $"
+}
+
+#cart button {
+    background-color: #48ad4b; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+#price::before {
+    content: "$"
+}
+
+#cart button:hover {
+    background-color: #b26d0b;
+}
+
+#cart .remove-one { background-color: #f44336; }
+#cart .add-one { background-color: #008CBA; } 
+
+.radio-label {
+   display: flex;
+   justify-content:center;
+}
+
+.radio-label > label {
+    margin: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

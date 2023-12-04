@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #2a2a2d;
+    --secondary-color: #379683;
+    --secondary-color-lighter: rgb(13, 215, 215);
+    --neutral-light: #B1A296;
+    --neutral-dark: #094169;
+    --color-bg-dark: black;
+    --color-bg-md: rgb(14, 15, 36);
+    --color-bg-light: white;
+    --color-background: #dde0e2;
+    --color-foreground: #7395AE;
+    --color-dark: #081a16;
+    --color-light: #abbef3;
+    --color-md-light: #6a96dc;
+    --color-md-dark: #205ab8;
+    --color-primary:#3c3b3f;
+    --color-info: rgb(194, 129, 16);
+    --color-info-light: rgb(225, 201, 159);
+    --color-bright: rgb(21, 43, 242);
+    --color-bright-dark: rgb(6, 13, 78);
+    --color-success: rgb(6, 119, 6);
+    --color-success-light: rgb(171, 227, 171);
+    --color-success-dark: rgb(3, 54, 3);
+    --color-danger: rgb(157, 46, 46);
+    --color-danger-dark: rgb(79, 17, 17);
+    --color-callout:  #46b2e3;
+    --color-lightest: #dae0f2;
+
+    /* Font styles */
+    --font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --font-stack-code: 'Courier New', Courier, monospace; 
+    --font-size: 18px;
+    --line-height: 1.8;
+    --font-color: var(--primary-color);
+    --vertical-space: 2rem;
+    --horizontal-space: 1rem;
+}
